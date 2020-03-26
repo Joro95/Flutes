@@ -15,7 +15,7 @@ public class ExampleApplication {
         List<Schuur> firstTask = Collections.singletonList(schuur);
         Deal firstTaskResult = FluteDealCalculator.getBestDeal(firstTask);
         Printer.printAnswer(firstTaskResult, firstTask.size());
-
+        System.out.println();
         //Second input from document
         Schuur schuur1 = new Schuur(Arrays.asList(7, 3, 11, 9, 10));
         Schuur schuur2 = new Schuur(Arrays.asList(1, 2, 3, 4, 10, 16, 10, 4, 16));
